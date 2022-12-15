@@ -1,0 +1,124 @@
+/* .slider1{
+    overflow: hidden;
+}
+.slider1 figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider1 infinite;
+}
+.slider1 figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider1 {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+.btn{
+    background-color: var(--background-color);
+    color: #222;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    --background-color:#E3E3E3;
+    --border-size: 2px;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border:var(--border-size) solid var(--background-color);
+    transition: top, left, right, bottom, 100ms ease-in-out;
+    border-radius: 10px;
+    
+ 
+}
+.btn:hover::before{
+    border-radius: 10px;
+    top: calc(var(--border-size)* -2);
+    left: calc(var(--border-size)* -2);
+    right: calc(var(--border-size)* -2);
+    bottom: calc(var(--border-size)* -2);
+} */
+
+.sec31{
+    overflow: hidden;
+}
+.sec31 figure {
+    position: relative;
+     width: 1000%;
+     margin: 0;
+    left: 0;
+    animation: 20s sec31 infinite; 
+}
+.sec31 figure img{
+    float: left;
+    width: 10%;
+}
+@keyframes sec31{
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }   
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
